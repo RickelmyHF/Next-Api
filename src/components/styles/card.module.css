@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    word-wrap: break-word;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.212);
+    box-sizing: border-box;
+    overflow: hidden;
+}.container h1{
+    width: 200px;
+    height: 37px;
+    word-wrap: break-word;
+    overflow: hidden;
+    font: 15px arial;
+    box-sizing: border-box;
+    margin-top: 30px;
+    border-top: rgba(0, 0, 0, 0.11) solid 1px;
+    
+}.container h2{
+    margin: 5px 0;
+    font: 20px arial;
+    color: rgba(255, 0, 0, 0.753);
+}.inf{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}.inf p{
+    font: 15px arial;
+}@media screen and (max-width: 600px){
+  .link{
+    width: 100%;
+  }
+}

@@ -1,0 +1,26 @@
+.h1{
+    font: 30px arial;
+}.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(44, 41, 41);
+    height: 60px;
+    color: white;
+    position: fixed;
+    width: 100vw;
+}.link{
+    font: 17px arial;
+}
+@media screen and (max-width: 720px){
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(44, 41, 41);
+        height: 60px;
+        color: white;
+        position: fixed;
+        width: 100vw;
+    }
+}

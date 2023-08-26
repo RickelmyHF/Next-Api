@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(44, 41, 41);
+    height: 60px;
+    color: white;
+    width: 100vw;
+    font: 16px arial;
+}.container a{
+    color: rgba(255, 0, 0, 0.637);
+}@media screen and (max-width: 720px){
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(44, 41, 41);
+        height: 60px;
+        color: white;
+        width: 100vw;
+        text-align: center;
+    }
+}
